@@ -1,0 +1,17 @@
+.details {
+    display: grid;
+    gap: 24px;
+}
+
+.link {
+    color: black;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+.link:hover {
+    opacity: 0.5;
+}
+
+/* .link:visited {
+    color: gray;
+} */

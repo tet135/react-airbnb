@@ -1,0 +1,41 @@
+.review__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.review__list {
+    /* display: flex;
+    width: 100%;
+    flex-direction: row; */
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #000;
+}
+
+.review__title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.review__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .review__info {
+    font-size: 16px;
+}
+
+.review__rating {
+    font-size: 16px;
+} */
